@@ -1,0 +1,50 @@
+@font-face{
+    font-family: Kelvin;
+    src: url(fonts/manksa.ttf)
+}
+body{
+    background-image: url(images/brunner.jpg);
+    background-color: #448afc; 
+    color: white;
+}
+h1{
+    font-family: "Kelvin", sans-serif;
+    font-size: 50px;
+    color: red;
+} 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+} 
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    border-collapse:collapse;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
