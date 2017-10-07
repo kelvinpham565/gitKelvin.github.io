@@ -1,50 +1,169 @@
 @font-face{
-    font-family: Kelvin;
-    src: url(fonts/manksa.ttf)
+    font-family: manska;
+    src: url(fonts/manska.ttf);
 }
 body{
-    background-image: url(images/brunner.jpg);
-    background-color: #448afc; 
-    color: white;
-}
-h1{
-    font-family: "Kelvin", sans-serif;
-    font-size: 50px;
-    color: red;
-} 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 50px;
-} 
-table, th, td {
-    border: 1px solid black;
-}
-table {
-    border-collapse:collapse;
+    background-color: #fbf9f9;
+    color: #201d24;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
 }
 
-ul {
+#home{
+    background-image: url("images/redwall.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(134, 4, 52, 0.05);
+    color: #fbf9f9;
+    font-weight: 300;
+    
+}
+#nav {
     list-style-type: none;
-    margin: 0;
+    margin: -8px;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #860434;
 }
-
-li {
-    float: left;
+#nav li {
+    float: right;
+    width:7%;
 }
-
-li a {
+#nav li a, #name {
     display: block;
-    color: white;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fbf9f9;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: #2d2c2c;
+}
+#nav #name{
+    width: 69%;
+    text-align: left;
+    padding-left: 0px;
+    font-family: "manska";
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+#hello{
+    display: block;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 100px;
+    color: #fbf9f9;
+    text-align: center;
+    text-shadow: 0px 0px 8px #fbf9f9;
+    margin:auto;
+    padding-top: 100px;
+}
+
+#welcome{
+    margin: auto;
+    width: 55%;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 24px;
+}
+#contact{
+    width: 100%;
+    line-height: 44px;
+    text-align: center;
+    background-color: #2e112d;
+    color: #fbf9f9;
+    position: fixed;
+    left:0;
+    bottom:0;
+}
+#contact a{
+    display: inline-block;
+    color: #fbf9f9;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111;
+#contact a i{
+    color: #fbf9f9;
+    vertical-align: middle;
 }
+#contact2{
+    line-height: 48px;
+    text-align: center;
+    background-color: #201d24;
+    color: #fbf9f9;
+    position: relative;
+    bottom: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+
+}
+#contact2 a{
+    display: inline-block;
+    color: #fbf9f9;
+    text-decoration: none;
+}
+
+#contact2 a i{
+    color: #fbf9f9;
+    vertical-align: middle;
+}
+#bts {
+    border: solid red 3px;
+    margin: 50px;
+    padding: 75px;
+    text-align: center;
+}
+
+#full{
+    width: 100%;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #201d24;
+    text-align: center;
+    padding-top: 24px;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #201d24;
+}
+
+/********TAKEN FROM W3 SCHOOLS********/
+.w3-hover-opacity:hover{
+    opacity: 0.60;
+    filter: alpha(opacity=60);
+    -webkit-backface-visibility: hidden;
+}
+.w3-hover-opacity{
+    -webkit-transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
+    transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
+}
+.w3-container{
+    padding:0.01em 16px;
+}
+.w3-container:after,.w3-panel:after,.w3-row:after,.w3-row-padding:after,.w3-topnav:after,.w3-clear:after,.w3-btn-group:before,.w3-btn-group:after,.w3-btn-bar:before,.w3-btn-bar:after
+{content:"";display:table;clear:both}
+
+.w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}
+.w3-col.s12,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{width:99.99999%}
+.w3-third{width:22%}
+.w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px;
+}
+.w3-row-padding{
+    margin-left: 64px;
+}
+.w3-margin-bottom{margin-bottom:16px!important}
+
+.w3-white{text-align: center; font-size: large}
