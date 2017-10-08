@@ -104,7 +104,8 @@ body{
     margin: 100px;
     width: 370px;
     height: 610px;
-    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     box-shadow: 10px 10px 5px #888888;
     text-align: center;
     font-family: "Georgia", serif;
@@ -172,6 +173,12 @@ th, td {
     margin-left: -8px;
 
 }
+#iamahomosexual{
+    font-family: "Georgia", serif !important;
+    text-align: left !important;
+    font-size: 1em;
+}
+
 #contact2 a{
     display: inline-block;
     color: #fbf9f9;
