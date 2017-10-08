@@ -1,6 +1,6 @@
 @font-face{
-    font-family: manska;
-    src: url(fonts/manska.ttf);
+    font-family: idubbbz;
+    src: url(fonts/elementalend/elemental.ttf);
 }
 body{
     background-color: #fbf9f9;
@@ -9,6 +9,7 @@ body{
     font-weight: 300;
 }
 
+/* INDEX or HOMEPAGE */
 #home{
     background-image: url("images/redwall.jpg");
     background-size: 100%;
@@ -16,8 +17,8 @@ body{
     background-color: rgba(134, 4, 52, 0.05);
     color: #fbf9f9;
     font-weight: 300;
-    
 }
+
 #nav {
     list-style-type: none;
     margin: -8px;
@@ -46,14 +47,16 @@ body{
     width: 69%;
     text-align: left;
     padding-left: 0px;
-    font-family: "manska";
+    font-family: "idubbbz";
     font-size: 32px;
     font-weight: bolder;
 }
 
+#nav #name:hover{
+    background-color: #ffdbc5;
+}
 #hello{
-    display: block;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "idubbbz";
     font-weight: 300;
     font-size: 100px;
     color: #fbf9f9;
@@ -82,6 +85,26 @@ body{
     left:0;
     bottom:0;
 }
+
+/* The box (aka good stuff ... am I right or am I right, Ms. Terry????) */
+#boxed {
+    margin-left: 600px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: #fcfaf9;
+    border: 1px solid red;
+}
+
+#boxed-text{
+    text-align: justify;
+    font-family: "idubbbz";
+} 
+
 #contact a{
     display: inline-block;
     color: #fbf9f9;
@@ -92,6 +115,7 @@ body{
     color: #fbf9f9;
     vertical-align: middle;
 }
+
 #contact2{
     line-height: 48px;
     text-align: center;
