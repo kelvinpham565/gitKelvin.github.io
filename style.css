@@ -70,6 +70,7 @@ body{
     padding-top: 100px;
 }
 
+
 #welcome{
     margin: auto;
     width: 55%;
@@ -121,7 +122,17 @@ body{
     font-family: "idubbbz";
     color: #ffdbc5;
 } 
-
+#boxed-text2{
+    text-align: center;
+    font-family: "idubbbz";
+    color: #f9fbff;
+    text-shadow: 0px 0px 8px #fbf9f9;
+} 
+#bottom-about{
+    vertical-align: bottom;
+    margin-top: 800px;
+    margin-left: 125px;
+}
 #boxed-paragraph{
     font-family: "filthyfrank", sans-serif;
     font-size: 1em;
@@ -218,6 +229,27 @@ p{
     font-weight: 300;
     font-size: 20px;
     color: #201d24;
+}
+#medeasfamilyreunion{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+#andynguyen #bill{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+#andynguyen a:hover{
+    background-color: #555;
+    color: white;
+}
+
+#shirogif{
+    opacity: 0.5;
 }
 
 /********TAKEN FROM W3 SCHOOLS********/
