@@ -251,6 +251,11 @@ p{
 #shirogif{
     opacity: 0.5;
 }
+#sm{
+    color: #ffdbc5 !important;
+    font-family: "filthyfrank" !important;
+    font-size: 1em;
+}
 
 /********TAKEN FROM W3 SCHOOLS********/
 .w3-hover-opacity:hover{
