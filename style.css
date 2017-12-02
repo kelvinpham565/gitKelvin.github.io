@@ -226,6 +226,12 @@ p{
     font-size: 20px;
     color: #201d24;
 }
+#scratch{
+    font-family: 'filthyfrank', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color:#f9be3e !important;
+}
 #medeasfamilyreunion{
     list-style-type: none;
     margin: 0;
